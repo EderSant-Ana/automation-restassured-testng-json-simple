@@ -98,8 +98,7 @@ public class TestsOnLocalAPI {
 			statusCode(200).
 				log().all();	
 	}
-	
-	
+		
 	@Test
 	public void deleteTestOnLocalAPI() {
 		
