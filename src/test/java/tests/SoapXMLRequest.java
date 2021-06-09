@@ -1,11 +1,12 @@
 package tests;
 
 import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import static io.restassured.RestAssured.*;
 
 import org.apache.commons.io.IOUtils;
 import org.testng.annotations.Test;
@@ -30,8 +31,10 @@ public class SoapXMLRequest {
 		when().
 			post("/Calc.asmx").
 		then().
-			statusCode(200).
-			log().all();
+			assertThat().
+				statusCode(200).
+				body("//*:AddResult.text()", equalTo("5")).
+				log().all();
 
 			
 				
