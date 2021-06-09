@@ -11,6 +11,7 @@ import org.json.simple.JSONObject;
 
 public class TestPatch {
 
+	@SuppressWarnings("unchecked")
 	@Test
 	public void testPatch() {
 
