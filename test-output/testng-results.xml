@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T20:19:45 BRT" name="Default suite" finished-at="2021-06-09T20:19:50 BRT" duration-ms="5140">
+  <suite started-at="2021-06-09T20:56:49 BRT" name="Default suite" finished-at="2021-06-09T20:56:54 BRT" duration-ms="4980">
     <groups>
     </groups>
-    <test started-at="2021-06-09T20:19:45 BRT" name="Default test" finished-at="2021-06-09T20:19:50 BRT" duration-ms="5140">
-      <class name="tests.SoapXMLRequest">
-        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@27ff5d15]" started-at="2021-06-09T20:19:45 BRT" name="validateSoapXML" finished-at="2021-06-09T20:19:50 BRT" duration-ms="5088" status="PASS">
+    <test started-at="2021-06-09T20:56:49 BRT" name="Default test" finished-at="2021-06-09T20:56:54 BRT" duration-ms="4980">
+      <class name="tests.XMLSchemaValidator">
+        <test-method signature="testGet()[pri:0, instance:tests.XMLSchemaValidator@1cbb87f3]" started-at="2021-06-09T20:56:49 BRT" name="testGet" finished-at="2021-06-09T20:56:54 BRT" duration-ms="4896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSoapXML -->
-      </class> <!-- tests.SoapXMLRequest -->
+        </test-method> <!-- testGet -->
+      </class> <!-- tests.XMLSchemaValidator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

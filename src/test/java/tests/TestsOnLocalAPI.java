@@ -12,7 +12,6 @@ import  static io.restassured.RestAssured.*;
 
 public class TestsOnLocalAPI {
 	
-	@Ignore
 	@Test
 	public void getTestOnLocalAPI() {
 		
@@ -99,6 +98,7 @@ public class TestsOnLocalAPI {
 				log().all();	
 	}
 		
+	@Ignore
 	@Test
 	public void deleteTestOnLocalAPI() {
 		
