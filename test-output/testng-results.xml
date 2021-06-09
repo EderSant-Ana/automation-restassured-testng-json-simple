@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T17:52:47 BRT" name="Default suite" finished-at="2021-06-09T17:52:52 BRT" duration-ms="4749">
+  <suite started-at="2021-06-09T20:00:16 BRT" name="Default suite" finished-at="2021-06-09T20:00:20 BRT" duration-ms="4814">
     <groups>
     </groups>
-    <test started-at="2021-06-09T17:52:47 BRT" name="Default test" finished-at="2021-06-09T17:52:52 BRT" duration-ms="4749">
-      <class name="tests.JsonSchemaValidator">
-        <test-method signature="testGet()[pri:0, instance:tests.JsonSchemaValidator@22e357dc]" started-at="2021-06-09T17:52:47 BRT" name="testGet" finished-at="2021-06-09T17:52:52 BRT" duration-ms="4689" status="PASS">
+    <test started-at="2021-06-09T20:00:16 BRT" name="Default test" finished-at="2021-06-09T20:00:20 BRT" duration-ms="4814">
+      <class name="tests.SoapXMLRequest">
+        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@27ff5d15]" started-at="2021-06-09T20:00:16 BRT" name="validateSoapXML" finished-at="2021-06-09T20:00:20 BRT" duration-ms="4759" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGet -->
-      </class> <!-- tests.JsonSchemaValidator -->
+        </test-method> <!-- validateSoapXML -->
+      </class> <!-- tests.SoapXMLRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

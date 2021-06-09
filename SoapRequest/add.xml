@@ -1,0 +1,17 @@
+<!-- <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <Add xmlns="http://tempuri.org/">
+            <a>[int]</a>
+            <b>[int]</b>
+        </Add>
+    </Body>
+</Envelope> -->
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <Add xmlns="http://tempuri.org/">
+            <a>2</a>
+            <b>3</b>
+        </Add>
+    </Body>
+</Envelope>
